@@ -31,8 +31,8 @@ module.exports = function (config) {
         base: 'Chrome',
         flags: ['--no-sandbox']
       }
-    },
-    singleRun: true,
-    restartOnFileChange: true
+    }//,
+    //singleRun: true,
+    //restartOnFileChange: true
   });
 };
